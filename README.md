@@ -5,19 +5,19 @@ QextSerialPort provides an interface to old fashioned serial ports for Qt-based 
 
 It's very easy to compile QextSerialPort directly into your application.
 
-Download the source code, and put it in any location you like.
+ -Download the source code, and put it in any location you like.
 
- Run following command to generate library.
+ -Run following command to generate library.
 
           qmake
           make (or nmake)
           sudo make install (or nmake install)
 
-Add following line to your project's file
+ -Add following line to your project's file
 
           CONFIG += extserialport
 
-Using QextSerialPort in your code. 
+ -Using QextSerialPort in your code. 
 
             #include "qextserialport.h"
             ....
